@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/akronim"
+        android:gravity="center"
+        android:text="League Tracking app"
+        android:textColor="@color/colorPrimary"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:id="@+id/start_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:background="@color/buttonback"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+
+        />
+    <Button
+        android:id="@+id/view_score_board_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Scoreboard"
+        android:background="@color/buttonback"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/select_player_one_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Player 1"
+        android:background="@color/buttonback"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/select_player_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Player 2"
+        android:background="@color/buttonback"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/add_player_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Player"
+        android:background="@color/buttonback"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:layout_margin="10dp"
+    >
+<TextView
+    android:id="@+id/scoreid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ID"
+    android:layout_weight="1"
+    />
+    <TextView
+        android:id="@+id/scoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/scoreWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Win"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/scoreLosses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Losses"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/scoreTie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tie"
+        android:layout_weight="1"
+        />
+</LinearLayout>
